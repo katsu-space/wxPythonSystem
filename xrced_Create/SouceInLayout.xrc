@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<resource>
+  <object class="wxFrame" name="MainForm">
+    <title>Main Form</title>
+    <object class="wxBoxSizer">
+      <orient>wxHORIZONTAL</orient>
+      <object class="sizeritem">
+        <object class="wxBoxSizer">
+          <orient>wxVERTICAL</orient>
+          <object class="sizeritem">
+            <object class="wxStaticText">
+              <label>LABEL</label>
+            </object>
+          </object>
+          <object class="sizeritem">
+            <object class="wxListBox"/>
+          </object>
+        </object>
+      </object>
+      <object class="sizeritem">
+        <object class="wxBoxSizer">
+          <orient>wxVERTICAL</orient>
+          <object class="sizeritem">
+            <object class="wxStaticText">
+              <label>LABEL</label>
+            </object>
+          </object>
+          <object class="sizeritem">
+            <object class="wxStaticBitmap"/>
+          </object>
+          <object class="sizeritem">
+            <object class="wxStaticText">
+              <label>LABEL</label>
+            </object>
+          </object>
+          <object class="sizeritem">
+            <object class="wxTextCtrl"/>
+          </object>
+        </object>
+      </object>
+    </object>
+  </object>
+</resource>

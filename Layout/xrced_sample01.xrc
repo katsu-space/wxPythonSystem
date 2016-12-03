@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<resource>
+  <object class="wxFrame" name="MainFrame">
+    <object class="wxBoxSizer">
+      <orient>wxVERTICAL</orient>
+      <object class="sizeritem">
+        <object class="wxButton" name="btnOK">
+          <label>Button!</label>
+          <XRCED>
+            <events>EVT_BUTTON</events>
+          </XRCED>
+        </object>
+      </object>
+      <object class="sizeritem">
+        <object class="wxStaticText" name="tbLabel">
+          <label>StaticText!</label>
+        </object>
+      </object>
+    </object>
+  </object>
+</resource>

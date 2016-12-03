@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<window width="1920">
+	<title font="large" color="red">sample</title>
+	<buttonbox>
+		<button color="red" pos="10, 20">OK</button>
+		<button color="blue" width="100">Cancel</button>
+	</buttonbox>
+</window>

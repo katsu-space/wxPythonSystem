@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<resource class="spacer">
+  <object class="wxFrame" name="Frame1">
+    <object class="wxBoxSizer">
+      <orient>wxVERTICAL</orient>
+      <object class="sizeritem">
+        <object class="wxSplitterWindow" name="spwMain">
+          <object class="wxPanel" name="pnlLeft">
+            <object class="wxBoxSizer">
+              <orient>wxVERTICAL</orient>
+              <object class="sizeritem">
+                <object class="wxStaticText" name="lblListbox">
+                  <label>LABEL</label>
+                </object>
+                <flag>wxEXPAND</flag>
+              </object>
+              <object class="sizeritem">
+                <object class="wxListBox" name="lbListBox"/>
+                <option>1</option>
+                <flag>wxEXPAND|wxGROW</flag>
+              </object>
+            </object>
+            <pos>1</pos>
+            <size>50</size>
+          </object>
+          <object class="wxPanel">
+            <object class="wxBoxSizer">
+              <orient>wxVERTICAL</orient>
+              <object class="sizeritem">
+                <object class="wxSplitterWindow" name="spwRight">
+                  <object class="wxPanel">
+                    <object class="wxBoxSizer">
+                      <object class="sizeritem">
+                        <object class="wxStaticText" name="lblImage">
+                          <pos>1</pos>
+                          <label>LABEL</label>
+                        </object>
+                        <flag>wxGROW</flag>
+                        <ratio>30</ratio>
+                      </object>
+                      <object class="sizeritem">
+                        <object class="wxStaticBitmap" name="imgImage">
+                          <pos>1</pos>
+                          <size>300</size>
+                          <bitmap>Image.png</bitmap>
+                        </object>
+                        <option>1</option>
+                        <flag>wxGROW</flag>
+                        <border>5</border>
+                        <minsize>300</minsize>
+                        <ratio>70</ratio>
+                      </object>
+                      <orient>wxVERTICAL</orient>
+                    </object>
+                    <size>300</size>
+                  </object>
+                  <object class="wxPanel">
+                    <object class="wxBoxSizer">
+                      <orient>wxVERTICAL</orient>
+                      <object class="sizeritem">
+                        <object class="wxStaticText" name="lblTextbox">
+                          <pos>1</pos>
+                          <label>LABEL</label>
+                        </object>
+                        <flag>wxGROW</flag>
+                      </object>
+                      <object class="sizeritem">
+                        <object class="wxTextCtrl" name="tbTextBox">
+                          <style>wxTE_MULTILINE</style>
+                        </object>
+                        <option>1</option>
+                        <flag>wxEXPAND|wxGROW</flag>
+                        <minsize>200</minsize>
+                      </object>
+                      <object class="sizeritem">
+                        <object class="wxBoxSizer">
+                          <object class="sizeritem">
+                            <object class="wxBoxSizer">
+                              <object class="sizeritem">
+                                <object class="wxButton" name="btnConfig">
+                                  <label>Setting</label>
+                                </object>
+                              </object>
+                              <orient>wxHORIZONTAL</orient>
+                            </object>
+                          </object>
+                          <object class="sizeritem">
+                            <object class="wxButton" name="btnOK">
+                              <pos>1</pos>
+                              <label>OK</label>
+                            </object>
+                          </object>
+                          <object class="sizeritem">
+                            <object class="wxButton" name="btnCancel">
+                              <pos>1</pos>
+                              <label>Cancel</label>
+                            </object>
+                          </object>
+                          <orient>wxHORIZONTAL</orient>
+                        </object>
+                        <flag>wxALIGN_RIGHT</flag>
+                      </object>
+                    </object>
+                    <size>200</size>
+                  </object>
+                  <pos>1</pos>
+                  <size>200</size>
+                  <orientation>horizontal</orientation>
+                  <style>wxSP_3D|wxSP_3DSASH|wxSP_3DBORDER</style>
+                </object>
+                <option>1</option>
+                <flag>wxEXPAND|wxGROW</flag>
+                <ratio>100</ratio>
+              </object>
+            </object>
+            <size>100</size>
+          </object>
+          <orientation>vertical</orientation>
+          <style>wxSP_3DSASH|wxSP_NO_XP_THEME</style>
+        </object>
+        <option>1</option>
+        <flag>wxEXPAND</flag>
+      </object>
+    </object>
+    <object class="wxStatusBar" name="StatuBar1">
+      <style>wxST_SIZEGRIP</style>
+    </object>
+    <size>600, 800</size>
+    <title>Main Window</title>
+    <centered>1</centered>
+  </object>
+</resource>

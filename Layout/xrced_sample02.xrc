@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<resource class="wxFrame">
+  <object class="wxFrame" name="MainFrame">
+    <object class="wxBoxSizer">
+      <orient>wxVERTICAL</orient>
+      <object class="sizeritem">
+        <object class="wxStaticText" name="tb1">
+          <label>LABEL</label>
+        </object>
+      </object>
+      <object class="sizeritem">
+        <object class="wxTextCtrl" name="tcLabel">
+          <value>Value text</value>
+        </object>
+      </object>
+      <object class="sizeritem">
+        <object class="wxStaticLine"/>
+      </object>
+      <object class="sizeritem">
+        <object class="wxBoxSizer">
+          <orient>wxHORIZONTAL</orient>
+          <object class="spacer"/>
+          <object class="sizeritem">
+            <object class="wxBitmapButton" name="wxID_OK">
+              <XRCED>
+                <events>EVT_BUTTON</events>
+              </XRCED>
+            </object>
+          </object>
+          <object class="sizeritem">
+            <object class="wxBitmapButton" name="wxID_CANCEL"/>
+          </object>
+        </object>
+      </object>
+    </object>
+  </object>
+  <object class="wxMenu">
+    <object class="wxMenuItem" name="ID_SHOW_MAIN_FRAME">
+      <label>menu</label>
+    </object>
+    <object class="separator"/>
+    <object class="wxMenuItem"/>
+  </object>
+</resource>

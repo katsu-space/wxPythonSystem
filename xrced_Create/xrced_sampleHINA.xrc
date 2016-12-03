@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<resource class="wxStaticText">
+  <object class="wxFrame" name="MainFrame">
+    <object class="wxBoxSizer">
+      <object class="sizeritem">
+        <object class="wxTextCtrl" name="tcText"/>
+        <option>1</option>
+        <flag>wxALIGN_CENTRE_VERTICAL</flag>
+      </object>
+      <object class="sizeritem">
+        <object class="wxButton" name="btnChange">
+          <label>Change</label>
+        </object>
+        <option>1</option>
+        <flag>wxALIGN_CENTRE_VERTICAL</flag>
+      </object>
+      <orient>wxHORIZONTAL</orient>
+    </object>
+    <size>400,300</size>
+    <title>Main Frame</title>
+    <style>wxDEFAULT_FRAME_STYLE</style>
+  </object>
+</resource>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource class="">
+  <object class="wxFrame">
+    <object class="wxStaticText" name="label1">
+      <label>LABEL</label>
+    </object>
+    <object class="wxButton" name="button1">
+      <label>Button1</label>
+    </object>
+  </object>
+</resource>

@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<resource class="EditableListBox">
+  <object class="wxFrame">
+    <object class="EditableListBox">
+      <label>Label</label>
+      <fg>#FF0080</fg>
+      <bg>#80FF00</bg>
+    </object>
+  </object>
+</resource>

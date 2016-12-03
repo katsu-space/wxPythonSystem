@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<resource>
+    <object class="wxFrame" name="myFrame">
+        <object class="wxBoxSizer">
+            <orient>wxVERTICAL</orient>
+            <object class="sizeritem">
+                <object class="wxTextCtrl"/>
+            </object>
+            <object class="sizeritem">
+                <object class="wxButton" name="myButton">
+                    <label>OK</label>
+                </object>
+            </object>
+        </object>
+    </object>
+</resource>

@@ -1,0 +1,19 @@
+【MovieMuseum_Linux】
+
+ローカルネットワーク上のisoファイルを再生するツール
+※関連付けプログラムで起動するため、そのアプリケーションがあればなんでも実行可能
+　ファイルの一覧を表示し、選択されたファイルを関連付けされたプログラムで開くツール
+
+一覧を作成するためにフォルダを検索するが、ネットワークドライブの場合は予めマウント
+しておかなくてはいけない。Pythonでマウントからやろうと思ったけど、うまく行かなかった。
+
+$ /etc/fstab に下記を追加
+
+例）"192.168.1.1"のサーバの「movies」共有フォルダを
+　　/mnt/movies にマウントする。※/mnt/movies フォルダは予め作成しておかなくてはいけない。
+　　$ sudo mkdir -p movies ...みたいな
+
+//192.168.1.1/movies /mnt/movies cifs username=katsu,password=katsuopen,sec=ntlm,iocharset=utf8,rw,uid=1000,gid=1000,noauto,x-systemd.automount 0 0
+
+Python 内からは /mnt/movies で認識できる。
+

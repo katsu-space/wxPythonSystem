@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource version="2.3.0.1">
+  <object class="wxFrame" name="MainFrame">
+    <object class="wxBoxSizer">
+      <object class="sizeritem">
+        <object class="wxListBox" name="ListBox1">
+          <size>100</size>
+          <content>
+            <item>item1</item>
+            <item>item2</item>
+            <item>item3</item>
+            <item>item4</item>
+            <item>item5</item>
+          </content>
+        </object>
+        <flag>wxGROW</flag>
+      </object>
+      <orient>wxHORIZONTAL</orient>
+      <object class="sizeritem">
+        <object class="wxBoxSizer">
+          <object class="sizeritem">
+            <object class="wxBoxSizer">
+              <object class="sizeritem">
+                <object class="wxStaticBitmap" name="Image1">
+                  <bitmap stock_id="wxART_MISSING_IMAGE"/>
+                </object>
+              </object>
+              <object class="sizeritem">
+                <object class="wxTextCtrl" name="TextCtrl1"/>
+                <option>1</option>
+                <flag>wxGROW</flag>
+              </object>
+              <orient>wxVERTICAL</orient>
+            </object>
+            <option>1</option>
+            <flag>wxGROW</flag>
+          </object>
+          <object class="sizeritem">
+            <object class="wxButton" name="btn1">
+              <label>btn1</label>
+              <fg>#FF0000</fg>
+            </object>
+          </object>
+          <object class="sizeritem">
+            <object class="wxButton" name="btn2">
+              <label>btn2</label>
+            </object>
+          </object>
+          <orient>wxVERTICAL</orient>
+        </object>
+        <option>1</option>
+        <flag>wxGROW</flag>
+      </object>
+    </object>
+    <object class="wxStatusBar" name="StatusBar"/>
+  </object>
+</resource>
